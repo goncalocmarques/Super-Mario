@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <link rel="stylesheet" type="text/css" href="../style.css">
+</head>
+<body>
+
+
+<h1>GameState.java</h1>
+
+<table class="src">
+
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@60c8a093_1'/>
+1
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@60c8a093_1'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>package uni.ldts.mario;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@60c8a093_2'/>
+2
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@60c8a093_2'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@60c8a093_3'/>
+3
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@60c8a093_3'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>import uni.ldts.model.IGameState;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@60c8a093_4'/>
+4
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@60c8a093_4'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@60c8a093_5'/>
+5
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@60c8a093_5'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>public enum GameState implements IGameState {</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@60c8a093_6'/>
+6
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@60c8a093_6'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@60c8a093_7'/>
+7
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@60c8a093_7'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>    START_SCREEN(0),</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@60c8a093_8'/>
+8
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@60c8a093_8'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>    LEVEL(1),</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@60c8a093_9'/>
+9
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@60c8a093_9'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>    PAUSED(2),</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@60c8a093_10'/>
+10
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@60c8a093_10'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>    GAME_OVER(3);</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@60c8a093_11'/>
+11
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@60c8a093_11'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@60c8a093_12'/>
+12
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@60c8a093_12'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    private final int val;</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@60c8a093_13'/>
+13
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@60c8a093_13'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>    GameState(int val) { this.val = val; }</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@60c8a093_14'/>
+14
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@60c8a093_14'>1</a>
+<span>
+1. toInt : replaced int return with 0 for uni/ldts/mario/GameState::toInt &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>    @Override public int toInt() { return val; }</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@60c8a093_15'/>
+15
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@60c8a093_15'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>}</span></pre></td></tr>
+
+
+
+<tr><td></td><td></td><td><h2>Mutations</h2></td></tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@60c8a093_14'>14</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@60c8a093_14'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>toInt<br/><b>Killed by : </b>uni.ldts.eventTests.CollisionTest.[engine:junit-jupiter]/[class:uni.ldts.eventTests.CollisionTest]/[method:blockBreak()]</span></span> replaced int return with 0 for uni/ldts/mario/GameState::toInt &rarr; KILLED</p> 
+</td>
+</tr>
+
+</table>
+
+
+<h2>Active mutators</h2>
+<ul>
+<li class='mutator'>CONDITIONALS_BOUNDARY</li>
+<li class='mutator'>EMPTY_RETURNS</li>
+<li class='mutator'>FALSE_RETURNS</li>
+<li class='mutator'>INCREMENTS</li>
+<li class='mutator'>INVERT_NEGS</li>
+<li class='mutator'>MATH</li>
+<li class='mutator'>NEGATE_CONDITIONALS</li>
+<li class='mutator'>NULL_RETURNS</li>
+<li class='mutator'>PRIMITIVE_RETURNS</li>
+<li class='mutator'>TRUE_RETURNS</li>
+<li class='mutator'>VOID_METHOD_CALLS</li>
+
+</ul>
+
+<h2>Tests examined</h2>
+<ul>
+<li>uni.ldts.physicsTest.Vector2DTest.[engine:junit-jupiter]/[class:uni.ldts.physicsTest.Vector2DTest]/[method:subtract()] (0 ms)</li><li>uni.ldts.physicsTest.Vector2DTest.[engine:junit-jupiter]/[class:uni.ldts.physicsTest.Vector2DTest]/[method:negate()] (0 ms)</li><li>uni.ldts.physicsTest.BodyTest.[engine:junit-jupiter]/[class:uni.ldts.physicsTest.BodyTest]/[method:build1()] (0 ms)</li><li>uni.ldts.eventTests.PlayerEventsTest.[engine:junit-jupiter]/[class:uni.ldts.eventTests.PlayerEventsTest]/[method:movePlayer()] (1 ms)</li><li>uni.ldts.eventTests.PlayerEventsTest.[engine:junit-jupiter]/[class:uni.ldts.eventTests.PlayerEventsTest]/[method:playerDied()] (84 ms)</li><li>uni.ldts.loadTest.WorldFactoryTest.[engine:junit-jupiter]/[class:uni.ldts.loadTest.WorldFactoryTest]/[method:character()] (82 ms)</li><li>uni.ldts.eventTests.CollisionTest.[engine:junit-jupiter]/[class:uni.ldts.eventTests.CollisionTest]/[method:collisionTest2()] (104 ms)</li><li>uni.ldts.eventTests.CollisionTest.[engine:junit-jupiter]/[class:uni.ldts.eventTests.CollisionTest]/[method:collisionTest1()] (109 ms)</li><li>uni.ldts.eventTests.CollisionTest.[engine:junit-jupiter]/[class:uni.ldts.eventTests.CollisionTest]/[method:collisionTest3()] (108 ms)</li><li>uni.ldts.loadTest.WorldFactoryTest.[engine:junit-jupiter]/[class:uni.ldts.loadTest.WorldFactoryTest]/[method:background()] (126 ms)</li><li>uni.ldts.loadTest.WorldFactoryTest.[engine:junit-jupiter]/[class:uni.ldts.loadTest.WorldFactoryTest]/[method:entities()] (220 ms)</li><li>uni.ldts.loadTest.WorldFactoryTest.[engine:junit-jupiter]/[class:uni.ldts.loadTest.WorldFactoryTest]/[method:objects()] (391 ms)</li><li>uni.ldts.eventTests.CollisionTest.[engine:junit-jupiter]/[class:uni.ldts.eventTests.CollisionTest]/[method:blockBreak()] (505 ms)</li><li>uni.ldts.eventTests.CollisionTest.[engine:junit-jupiter]/[class:uni.ldts.eventTests.CollisionTest]/[method:collisionTest4()] (514 ms)</li><li>uni.ldts.eventTests.CollisionTest.[engine:junit-jupiter]/[class:uni.ldts.eventTests.CollisionTest]/[method:onMarioEnemyCollision()] (1007 ms)</li><li>uni.ldts.eventTests.CollisionTest.[engine:junit-jupiter]/[class:uni.ldts.eventTests.CollisionTest]/[method:collectCoin()] (1009 ms)</li><li>uni.ldts.eventTests.CollisionTest.[engine:junit-jupiter]/[class:uni.ldts.eventTests.CollisionTest]/[method:powerUpSpawn()] (1008 ms)</li><li>uni.ldts.eventTests.CollisionTest.[engine:junit-jupiter]/[class:uni.ldts.eventTests.CollisionTest]/[method:onMarioPowerUpCollision()] (1510 ms)</li><li>uni.ldts.eventTests.CollisionTest.[engine:junit-jupiter]/[class:uni.ldts.eventTests.CollisionTest]/[method:collisionTest5()] (2014 ms)</li>
+</ul>
+
+<br/>
+
+Report generated by <a href='https://pitest.org'>PIT</a> 1.15.0
+
+</body>
+</html>
